@@ -12,6 +12,7 @@ This repository contains the implementation and results of the Matryoshka Repres
 
 ## Introduction
 Matryoshka Representation Learning (MRL) is inspired by Matryoshka dolls, where smaller dolls are nested within larger ones. Similarly, MRL encodes hierarchical representations that can be truncated at different levels to balance between computational efficiency and accuracy. This repository contains the code, datasets, and results of our MRL implementation and experiments.
+
 ![MRLFlowDiagram](Results/MRLFlowDiagram.jpg)
 
 ## Usage
@@ -24,7 +25,6 @@ Matryoshka Representation Learning (MRL) is inspired by Matryoshka dolls, where 
 
 ## Results
 The main results of the project are summarized below:
-![Results](Results/Accuracy.png)
 
 - **Improved Flexibility and Adaptability:**
   - MRL encodes information at multiple granularities within a single representation vector.
@@ -38,6 +38,8 @@ The main results of the project are summarized below:
 - **Real-World Impact:**
   - The efficiency and adaptability of MRL make it suitable for environments with limited computational resources.
   - MRL maintains robust performance even with reduced representation sizes, demonstrating practical applicability.
+
+![Results](Results/Accuracy.png)
 
 ## Conclusion
 The implementation of Matryoshka Representation Learning (MRL) in this project has demonstrated significant benefits in terms of flexibility, efficiency, and performance. The results validate the effectiveness of MRL in maintaining accuracy while adapting to different computational constraints.
